@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*CSS for Food Order Section*/
+
+.Content-area{
+display: flex;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+.Content-area .text-area{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+
+}
+.Content-area .text-area h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #4F5362;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+.text-area h1 .title-color{
+    color: orange;
+}
+.Content-area .text-area p{
+    padding-bottom: 5%;
+}
+.Content-area .text-area a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fcd249 0%, #FC8F49  51%,#FE4A2E  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.Content-area .text-area a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .Content-area .image-area{
+      width: 50%;
+  }
+  .Content-area .image-area img{
+      width: 100%;
+  }
+
+
+  /*CSS for About Me Section*/
+
+  .about-Content-area{
+      display: flex;
+      background-image: url(img/shapes/7.png);
+      background-repeat: no-repeat;
+  }
+  .about-Content-area .about-image{
+      width: 50%;
+      padding-left: 15%;
+      padding-top: 5%;
+  }
+ .about-Content-area .about-image img{
+    width: 68%;
+    padding-top: 5%;
+    margin: 0;
+}
+.about-Content-area .about-text{
+    width: 50%;
+    padding-top: 10%;
+    padding-right: 15%;
+}
+.about-Content-area .about-text h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: #4F5362;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+.about-Content-area .about-text p{
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+.about-Content-area .about-text a{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fcd249 0%, #FC8F49  51%,#FE4A2E  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.about-Content-area .about-text a:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/*CSS for My recipies*/
+
+.Recipies-wrapper{
+    margin-top: 5%;
+}
+.Recipies-wrapper .Recipies-top-text{
+    text-align: center;
+}
+.Recipies-wrapper .Recipies-top-text h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: #4F5362;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+.Recipies-wrapper .Recipies-top-text p{
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+.Recipies-wrapper .Recipie-items{
+    display: flex;
+}
+.Recipies-wrapper .Recipie-items .Recipie-item{
+padding: 1%;
+border-radius: 15px;
+width: 50%;
+margin-left: 6%;
+	/*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.3)  
+
+}
+#Recipie-item-right-padding{
+    margin-right: 6%;
+}
+.Recipies-wrapper .Recipie-items .Recipie-item img{
+    width: 100%;
+}
