@@ -154,10 +154,51 @@ margin-left: 6%;
 
 /*Social flowers*/
 
+.Social-flowers-wrapper{
+    padding-top: 5%;
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border-radius: 20px;
+    width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.3) 
+}
+
 .Social-flowers-wrapper .Social-flowers-items{
     display: flex;
+    text-align: center; 
+
 }
 
 .Social-flowers-wrapper .Social-flowers-items .Social-flowers-item{
     width: 50%;
+}
+.Social-flowers-wrapper .Social-flowers-items .Social-flowers-item h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: #4F5362;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+/*CSS for Footer Section*/
+footer{
+    margin-top: 70px;
+    padding-bottom: 70px;
+    background-color: #181f38;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.footer-title-color-1{
+    color: orange;
+}
+.footer-title-color-2{
+    color: silver;
 }
