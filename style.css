@@ -151,3 +151,13 @@ margin-left: 6%;
 .Recipies-wrapper .Recipie-items .Recipie-item img{
     width: 100%;
 }
+
+/*Social flowers*/
+
+.Social-flowers-wrapper .Social-flowers-items{
+    display: flex;
+}
+
+.Social-flowers-wrapper .Social-flowers-items .Social-flowers-item{
+    width: 50%;
+}
